@@ -127,13 +127,13 @@ form input[type="text"], form input[type="password"]{
     }
    
 }
-@media screen and (min-width: 100%){
+@media screen and (min-width: 900px){
     
     .split-screen{
         flex-direction: row;
         height:100vh;
     }
-    .left .right{
+    .left, .right{
         display:flex;
         width:50%;
         height:auto;
