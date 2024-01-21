@@ -7,60 +7,57 @@
     <title>Sign In Form</title>
   </head>
   <body>
-    <section class="container">
-      <div class="form">
-        <div class="content">
-          <header>
-            <img src="img/Logo.png" alt="" />
-          </header>
-
-          <h4>Nice to see you again</h4>
-          <form action="#">
-            <div class="field input">
-              <span>Login</span>
-              <input
-                type="text"
-                class="input"
-                placeholder="Email or phone number"
-              />
-            </div>
-
-            <div class="field input">
-              <span>Password</span>
-              <input
-                type="password"
-                class="password"
-                placeholder="Enter Password"
-              />
-            </div>
-
-            <div class="form-link">
-              <a href="#" class="f-pass">Forgot password?</a>
-            </div>
-
-            <div class="field button">
-              <button type="submit">Sign In</button>
-            </div>
-
-            <div class="form-link2">
-              <span
-                >Don't have an account?
-                <a href="#" class="daftar"> Sign up now</a></span
-              >
-            </div>
-            <div class="line"></div>
-
-            <div class="btn-google">
-              <button type="submit">
-                <img src="img/Other-Pay-Method.png" alt="" />
-                <span> Or sign in with Google</span>
-              </button>
-            </div>
-
-            <h3>© Perfect Login 2021</h3>
-          </form>
-        </div>
+    <div class="split-screen">
+      <div class="left">
+        <section class="copy">
+          <h1>Photo by Alexandr Popadin</h1>
+        </section>
       </div>
-    </section>
+      <div class="right">
+        <form action="#">
+          <section class="copy">
+            <div class="logo">
+              <img src="img/Logo.png" alt="" />
+            </div>
+            <h2>Nice to see you again</h2>
+          </section>
+          <div class="input-container name">
+            <label for="fname">Login</label>
+            <input
+              id="fname"
+              name="fname"
+              type="text"
+              placeholder="Email or phone number"
+            />
+          </div>
+          <div class="input-container password">
+            <label for="fpassword">Password</label>
+            <input
+              id="fpassword"
+              name="fpassword"
+              type="password"
+              placeholder="Enter Password"
+            />
+          </div>
+          <div class="forgot">
+            <a href="#">Forgot password?</a>
+          </div>
+          <button class="signin-btn" type="submit">Sign In</button>
+          <div class="navbar">
+            <nav></nav>
+          </div>
+          <button class="signin-google" type="submit">
+            <img src="img/Other-Pay-Method.png" alt="" />
+            <span>Or sign in with Google</span>
+          </button>
+          <div class="signup">
+            <p>Don't have an account? <a href="#">Sign up now</a></p>
+          </div>
+          <section class="copy-legal">
+            <p><span class="small">&copy Perfect Login 2021</span></p>
+          </section>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
